@@ -27,7 +27,7 @@ load_model = MyMnist_ModelV0(input_shape=784,
                           output_shape=10
 )
 
-PATH = "C:/Users/Hp Pavilion/Downloads/state_dict_model.pth" # PATH where you load the model trained
+PATH = "Digit_Recognizer/state_dict_model.pth" # PATH where you load the model trained
 
 load_model.load_state_dict(torch.load(PATH))
 load_model.eval()
